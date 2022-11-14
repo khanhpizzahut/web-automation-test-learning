@@ -2,9 +2,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-
-from allure_commons.types import AttachmentType
-import allure
 import pytest
 import logging
 
@@ -26,9 +23,9 @@ def pytest_runtest_makereport(item, call):
 def start_driver(request):
     market = str(request.cls).split(".")[2]
     log.logger.info("[DRIVER] --> Start market: "+ market)
-
+    #driver = webdriver.Chrome(executable_path=r"/Users/phdvqc/Documents/GitHub/web-automation-test-learning/driver/chromedriver")
     driver = webdriver.Chrome(
-        executable_path=r"/Users/phdvqc/Documents/GitHub/web-automation-test-learning/driver/chromedriver")
+        executable_path=Consts.Driver_website_chrome)
     driver.get("https://www.pizzahut.jp/")
     request.cls.driver = driver
     driver.implicitly_wait(10)

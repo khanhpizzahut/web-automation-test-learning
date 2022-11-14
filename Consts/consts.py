@@ -11,8 +11,7 @@ class Consts:
     SCREENSHOT_DIR = PROJECT_ROOT + "/Screenshots/"
     REPORT_DIR = PROJECT_ROOT + "/reports/"
     Excel_DATA = PROJECT_ROOT + "/Excel/Data.xlsx"
-
-
+    Driver_website_chrome = PROJECT_ROOT + "/driver/chromedriver"
 print(Consts.PROJECT_ROOT)
 
 # pytest test_01_NotLocalise_NotLogin.py --alluredir="/Users/phdvqc/Documents/GitHub/python-automation-test-pom/allureReport"
