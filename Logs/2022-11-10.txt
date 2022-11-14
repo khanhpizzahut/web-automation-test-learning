@@ -1,0 +1,232 @@
+2022-11-10 20:51:08,335 - LogUtil.py:[23] - [INFO] - Khanh log2223
+2022-11-10 20:54:20,586 - LogUtil.py:[23] - [INFO] - Khanh log2223
+2022-11-10 20:54:20,921 - BaseTest.py:[18] - [INFO] - -------------------------------------------------
+2022-11-10 20:54:20,921 - BaseTest.py:[19] - [INFO] - ------------Start test new feature---------------
+2022-11-10 20:54:20,921 - BaseTest.py:[20] - [INFO] - -------------------------------------------------
+2022-11-10 20:54:20,921 - BaseTest.py:[23] - [INFO] - Market:  JP
+2022-11-10 20:54:23,665 - testrail.py:[140] - [INFO] - Testrail latest test run id: 118
+2022-11-10 20:54:23,667 - BaseTest.py:[35] - [INFO] - [Testrail] create new test run ID: 118
+2022-11-10 20:54:23,668 - conftest.py:[26] - [INFO] - [DRIVER] --> Start market: JP
+2022-11-10 20:54:40,778 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_001_3249_verifyChangeLanguage
+2022-11-10 20:54:40,779 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvUseYourAccountToGetStarted
+2022-11-10 20:54:42,861 - BasePage.py:[56] - [INFO] - [GETTEXT] tvUseYourAccountToGetStarted
+2022-11-10 20:54:43,096 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: アカウントを使って始めましょう
+2022-11-10 20:54:43,096 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvUseYourAccountToGetStarted
+2022-11-10 20:54:43,342 - BasePage.py:[56] - [INFO] - [GETTEXT] tvUseYourAccountToGetStarted
+2022-11-10 20:54:43,509 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: アカウントを使って始めましょう
+2022-11-10 20:54:43,509 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: アカウントを使って始めましょう
+2022-11-10 20:54:43,510 - BasePage.py:[27] - [INFO] - [WAITING] showed element: clLanguageSelector
+2022-11-10 20:54:43,640 - BasePage.py:[39] - [INFO] - [CLICK] clLanguageSelector
+2022-11-10 20:54:43,875 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.view.ViewGroup[@index = 1]
+2022-11-10 20:54:44,980 - BasePage.py:[39] - [INFO] - [CLICK] //android.view.ViewGroup[@index = 1]
+2022-11-10 20:54:47,973 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvUseYourAccountToGetStarted
+2022-11-10 20:54:48,106 - BasePage.py:[56] - [INFO] - [GETTEXT] tvUseYourAccountToGetStarted
+2022-11-10 20:54:48,189 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Use your account to get started
+2022-11-10 20:54:48,189 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Use your account to get started
+2022-11-10 20:54:48,189 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3249
+2022-11-10 20:54:48,189 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3249, test run ID: 118
+2022-11-10 20:54:50,043 - BaseTest.py:[71] - [INFO] - [RESULT - PASSED]: testcase id: None
+2022-11-10 20:54:50,044 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:54:50,046 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_002_3250_verifyButtonSigin
+2022-11-10 20:54:50,046 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnSignInSignUp
+2022-11-10 20:54:50,171 - BasePage.py:[39] - [INFO] - [CLICK] btnSignInSignUp
+2022-11-10 20:54:50,285 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvSignin
+2022-11-10 20:54:51,367 - BasePage.py:[56] - [INFO] - [GETTEXT] tvSignin
+2022-11-10 20:54:51,474 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Sign in
+2022-11-10 20:54:51,474 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Sign in
+2022-11-10 20:54:51,474 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivBack
+2022-11-10 20:54:51,630 - BasePage.py:[39] - [INFO] - [CLICK] ivBack
+2022-11-10 20:54:51,824 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3250
+2022-11-10 20:54:51,825 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3250, test run ID: 118
+2022-11-10 20:54:53,267 - BaseTest.py:[71] - [INFO] - [RESULT - PASSED]: testcase id: None
+2022-11-10 20:54:53,268 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:54:53,270 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_003_3251_verifyGetCoupon
+2022-11-10 20:54:53,270 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnGetCoupon
+2022-11-10 20:54:53,433 - BasePage.py:[39] - [INFO] - [CLICK] btnGetCoupon
+2022-11-10 20:54:53,620 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvMessage
+2022-11-10 20:54:54,618 - BasePage.py:[56] - [INFO] - [GETTEXT] tvMessage
+2022-11-10 20:54:54,721 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Please log in or create a new account to enjoy coupon(s)
+2022-11-10 20:54:54,721 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Please log in or create a new account to enjoy coupon(s)
+2022-11-10 20:54:54,721 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnSignIn
+2022-11-10 20:54:54,882 - BasePage.py:[39] - [INFO] - [CLICK] btnSignIn
+2022-11-10 20:54:55,031 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvSignin
+2022-11-10 20:54:55,915 - BasePage.py:[56] - [INFO] - [GETTEXT] tvSignin
+2022-11-10 20:54:56,015 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Sign in
+2022-11-10 20:54:56,016 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Sign in
+2022-11-10 20:54:56,016 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivBack
+2022-11-10 20:54:56,188 - BasePage.py:[39] - [INFO] - [CLICK] ivBack
+2022-11-10 20:54:56,333 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnCreateAccount
+2022-11-10 20:54:57,557 - BasePage.py:[39] - [INFO] - [CLICK] btnCreateAccount
+2022-11-10 20:54:58,468 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvSignin
+2022-11-10 20:54:58,616 - BasePage.py:[56] - [INFO] - [GETTEXT] tvSignin
+2022-11-10 20:54:58,721 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Sign in
+2022-11-10 20:54:58,721 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Sign in
+2022-11-10 20:54:58,721 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivBack
+2022-11-10 20:54:58,902 - BasePage.py:[39] - [INFO] - [CLICK] ivBack
+2022-11-10 20:54:59,079 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_back
+2022-11-10 20:55:00,231 - BasePage.py:[39] - [INFO] - [CLICK] toolbar_back
+2022-11-10 20:55:00,931 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3251
+2022-11-10 20:55:00,932 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3251, test run ID: 118
+2022-11-10 20:55:03,045 - BaseTest.py:[71] - [INFO] - [RESULT - PASSED]: testcase id: None
+2022-11-10 20:55:03,046 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:55:03,048 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_004_3252_verifyGoToMenu
+2022-11-10 20:55:03,048 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnMenu
+2022-11-10 20:55:03,298 - BasePage.py:[39] - [INFO] - [CLICK] btnMenu
+2022-11-10 20:55:03,482 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewPromotions
+2022-11-10 20:55:04,812 - BasePage.py:[56] - [INFO] - [GETTEXT] btnViewPromotions
+2022-11-10 20:55:05,551 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: View Pizza Menu
+2022-11-10 20:55:05,551 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: View Pizza Menu
+2022-11-10 20:55:05,552 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3252
+2022-11-10 20:55:05,552 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3252, test run ID: 118
+2022-11-10 20:55:06,896 - BaseTest.py:[71] - [INFO] - [RESULT - PASSED]: testcase id: None
+2022-11-10 20:55:06,897 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:55:06,898 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_005_3253_verifyLeftMenu
+2022-11-10 20:55:06,898 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivLeftMenu
+2022-11-10 20:55:07,448 - BasePage.py:[39] - [INFO] - [CLICK] ivLeftMenu
+2022-11-10 20:55:07,728 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Home']
+2022-11-10 20:55:08,748 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Home']
+2022-11-10 20:55:09,099 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivLeftMenu
+2022-11-10 20:55:10,430 - BasePage.py:[39] - [INFO] - [CLICK] ivLeftMenu
+2022-11-10 20:55:10,753 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Sign In']
+2022-11-10 20:55:12,270 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Sign In']
+2022-11-10 20:55:12,642 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvSignin
+2022-11-10 20:55:14,498 - BasePage.py:[56] - [INFO] - [GETTEXT] tvSignin
+2022-11-10 20:55:14,640 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Sign in
+2022-11-10 20:55:14,641 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Sign in
+2022-11-10 20:55:14,641 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivBack
+2022-11-10 20:55:14,824 - BasePage.py:[39] - [INFO] - [CLICK] ivBack
+2022-11-10 20:55:14,959 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivLeftMenu
+2022-11-10 20:55:16,178 - BasePage.py:[39] - [INFO] - [CLICK] ivLeftMenu
+2022-11-10 20:55:16,452 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Language/言語']
+2022-11-10 20:55:17,754 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Language/言語']
+2022-11-10 20:55:18,206 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.view.ViewGroup[@index=0]/android.widget.CheckBox[@index=0]
+2022-11-10 20:55:19,352 - BasePage.py:[39] - [INFO] - [CLICK] //android.view.ViewGroup[@index=0]/android.widget.CheckBox[@index=0]
+2022-11-10 20:55:19,622 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewPromotions
+2022-11-10 20:55:21,017 - BasePage.py:[56] - [INFO] - [GETTEXT] btnViewPromotions
+2022-11-10 20:55:21,200 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: ピザメニューを見る
+2022-11-10 20:55:21,200 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: ピザメニューを見る
+2022-11-10 20:55:21,200 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivLeftMenu
+2022-11-10 20:55:21,454 - BasePage.py:[39] - [INFO] - [CLICK] ivLeftMenu
+2022-11-10 20:55:21,712 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='言語/Language']
+2022-11-10 20:55:23,109 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='言語/Language']
+2022-11-10 20:55:23,554 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.view.ViewGroup[@index=1]/android.widget.CheckBox[@index=0]
+2022-11-10 20:55:24,649 - BasePage.py:[39] - [INFO] - [CLICK] //android.view.ViewGroup[@index=1]/android.widget.CheckBox[@index=0]
+2022-11-10 20:55:24,886 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewPromotions
+2022-11-10 20:55:26,317 - BasePage.py:[56] - [INFO] - [GETTEXT] btnViewPromotions
+2022-11-10 20:55:26,422 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: View Pizza Menu
+2022-11-10 20:55:26,422 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: View Pizza Menu
+2022-11-10 20:55:26,422 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivLeftMenu
+2022-11-10 20:55:26,679 - BasePage.py:[39] - [INFO] - [CLICK] ivLeftMenu
+2022-11-10 20:55:26,948 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text="FAQ's"]
+2022-11-10 20:55:27,948 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text="FAQ's"]
+2022-11-10 20:55:28,313 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_title
+2022-11-10 20:55:31,117 - BasePage.py:[56] - [INFO] - [GETTEXT] toolbar_title
+2022-11-10 20:55:31,231 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: FAQ's
+2022-11-10 20:55:31,231 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: FAQ's
+2022-11-10 20:55:31,231 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_back
+2022-11-10 20:55:31,376 - BasePage.py:[39] - [INFO] - [CLICK] toolbar_back
+2022-11-10 20:55:31,539 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Home']
+2022-11-10 20:55:32,935 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Home']
+2022-11-10 20:55:33,399 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivLeftMenu
+2022-11-10 20:55:34,702 - BasePage.py:[39] - [INFO] - [CLICK] ivLeftMenu
+2022-11-10 20:55:34,922 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Customer service']
+2022-11-10 20:55:36,214 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Customer service']
+2022-11-10 20:55:36,664 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Privacy Policy']
+2022-11-10 20:55:37,696 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Privacy Policy']
+2022-11-10 20:55:38,127 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_title
+2022-11-10 20:55:39,332 - BasePage.py:[56] - [INFO] - [GETTEXT] toolbar_title
+2022-11-10 20:55:39,491 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Privacy Policy
+2022-11-10 20:55:39,491 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Privacy Policy
+2022-11-10 20:55:39,492 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_back
+2022-11-10 20:55:39,699 - BasePage.py:[39] - [INFO] - [CLICK] toolbar_back
+2022-11-10 20:55:39,898 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Membership T&C']
+2022-11-10 20:55:41,156 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Membership T&C']
+2022-11-10 20:55:41,491 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_title
+2022-11-10 20:55:42,749 - BasePage.py:[56] - [INFO] - [GETTEXT] toolbar_title
+2022-11-10 20:55:42,892 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Membership T&C
+2022-11-10 20:55:42,892 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Membership T&C
+2022-11-10 20:55:42,892 - BasePage.py:[27] - [INFO] - [WAITING] showed element: toolbar_back
+2022-11-10 20:55:43,021 - BasePage.py:[39] - [INFO] - [CLICK] toolbar_back
+2022-11-10 20:55:43,175 - BasePage.py:[27] - [INFO] - [WAITING] showed element: //android.widget.TextView[@text='Home']
+2022-11-10 20:55:44,921 - BasePage.py:[39] - [INFO] - [CLICK] //android.widget.TextView[@text='Home']
+2022-11-10 20:55:45,285 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3253
+2022-11-10 20:55:45,285 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3253, test run ID: 118
+2022-11-10 20:55:47,090 - BaseTest.py:[71] - [INFO] - [RESULT - PASSED]: testcase id: None
+2022-11-10 20:55:47,092 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:55:47,093 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_006_3254_verifyViewCoupon
+2022-11-10 20:55:47,094 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewPromotions
+2022-11-10 20:55:47,328 - BasePage.py:[56] - [INFO] - [GETTEXT] btnViewPromotions
+2022-11-10 20:55:47,590 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: View Pizza Menu
+2022-11-10 20:55:47,590 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: View Pizza Menu
+2022-11-10 20:55:47,590 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewCoupons
+2022-11-10 20:55:47,795 - BasePage.py:[39] - [INFO] - [CLICK] btnViewCoupons
+2022-11-10 20:55:48,052 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvMessage
+2022-11-10 20:55:48,894 - BasePage.py:[56] - [INFO] - [GETTEXT] tvMessage
+2022-11-10 20:55:49,000 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Please log in or create a new account to enjoy coupon(s)
+2022-11-10 20:55:49,000 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Please log in or create a new account to enjoy coupon(s)
+2022-11-10 20:55:49,000 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnSignIn
+2022-11-10 20:55:49,139 - BasePage.py:[39] - [INFO] - [CLICK] btnSignIn
+2022-11-10 20:55:49,287 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvSignin
+2022-11-10 20:55:50,079 - BasePage.py:[56] - [INFO] - [GETTEXT] tvSignin
+2022-11-10 20:55:50,164 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Sign in
+2022-11-10 20:55:50,164 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Sign in
+2022-11-10 20:55:50,164 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivBack
+2022-11-10 20:55:50,314 - BasePage.py:[39] - [INFO] - [CLICK] ivBack
+2022-11-10 20:55:50,471 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewCoupons
+2022-11-10 20:55:51,633 - BasePage.py:[39] - [INFO] - [CLICK] btnViewCoupons
+2022-11-10 20:55:51,807 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnCreateAccount
+2022-11-10 20:55:52,833 - BasePage.py:[39] - [INFO] - [CLICK] btnCreateAccount
+2022-11-10 20:55:52,979 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvSignin
+2022-11-10 20:55:53,810 - BasePage.py:[56] - [INFO] - [GETTEXT] tvSignin
+2022-11-10 20:55:53,911 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: Sign in
+2022-11-10 20:55:53,911 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: Sign in
+2022-11-10 20:55:53,911 - BasePage.py:[27] - [INFO] - [WAITING] showed element: ivBack
+2022-11-10 20:55:54,605 - BasePage.py:[39] - [INFO] - [CLICK] ivBack
+2022-11-10 20:55:54,781 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewCoupons
+2022-11-10 20:55:56,032 - BasePage.py:[39] - [INFO] - [CLICK] btnViewCoupons
+2022-11-10 20:55:56,307 - BasePage.py:[27] - [INFO] - [WAITING] showed element: tvClose
+2022-11-10 20:55:57,153 - BasePage.py:[39] - [INFO] - [CLICK] tvClose
+2022-11-10 20:55:57,339 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3254
+2022-11-10 20:55:57,339 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3254, test run ID: 118
+2022-11-10 20:55:58,697 - BaseTest.py:[71] - [INFO] - [RESULT - PASSED]: testcase id: None
+2022-11-10 20:55:58,698 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:55:58,700 - BaseTest.py:[45] - [INFO] - 
+
+
+Start test new testcase-----> test_007_3255_verifyAddItem_Pizza
+2022-11-10 20:55:58,700 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewPromotions
+2022-11-10 20:55:58,895 - BasePage.py:[56] - [INFO] - [GETTEXT] btnViewPromotions
+2022-11-10 20:55:59,091 - BasePage.py:[61] - [INFO] - [GETTEXT] text is: View Pizza Menu
+2022-11-10 20:55:59,092 - BasePage.py:[66] - [INFO] - [VERIFY] expected is: View Pizza Menu
+2022-11-10 20:55:59,092 - BasePage.py:[27] - [INFO] - [WAITING] showed element: btnViewPromotions
+2022-11-10 20:55:59,287 - BasePage.py:[39] - [INFO] - [CLICK] btnViewPromotions
+2022-11-10 20:55:59,497 - BaseTest.py:[53] - [INFO] - [Testrail] Case ID: 3255
+2022-11-10 20:55:59,498 - testrail.py:[169] - [INFO] - [Testrail] get_testcaseid_ontestrun: case ID3255, test run ID: 118
+2022-11-10 20:56:00,886 - BaseTest.py:[82] - [INFO] - [RESULT - FAILED]: testcase id: None - reason: TypeError: pizza_AddItem() missing 1 required positional argument: 'ColectionOrDelivery'
+2022-11-10 20:56:03,054 - conftest.py:[64] - [INFO] - [SCREEN SHOT] image: /Users/phdvqc/Documents/GitHub/mobile-automation-test-pom/Screenshots/test_007_3255_verifyAddItem_Pizza.png
+2022-11-10 20:56:03,054 - conftest.py:[65] - [INFO] - [BackToHome] Start
+2022-11-10 20:56:03,054 - conftest.py:[68] - [INFO] - [BackToHome] time is: 1
+2022-11-10 20:56:46,823 - conftest.py:[89] - [INFO] - [BackToHome] click on leftmenu
+2022-11-10 20:56:46,824 - conftest.py:[68] - [INFO] - [BackToHome] time is: 2
+2022-11-10 20:56:47,834 - conftest.py:[71] - [INFO] - [BackToHome] This is Home Screen
+2022-11-10 20:56:47,835 - conftest.py:[104] - [INFO] - <-----End of testcase
+2022-11-10 20:56:47,835 - conftest.py:[47] - [INFO] - [DRIVER] --> Quit
+2022-11-10 20:56:48,515 - BaseTest.py:[39] - [INFO] - ---End test new feature---

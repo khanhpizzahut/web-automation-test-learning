@@ -1,0 +1,2 @@
+2022-11-11 14:46:13,083 - conftest.py:[36] - [INFO] - [DRIVER] --> Quit
+2022-11-11 14:46:13,089 - BaseTest.py:[39] - [INFO] - ---End test new feature---
