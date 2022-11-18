@@ -180,7 +180,7 @@ def get_testcaseid_ontestrun(testrun_id,case_id): #(73,510)
 
 
 
-#create_test_run("khanh test thu",["510", "511", "512"])
+create_test_run("khanh test thu",["510", "511", "512"])
 #print(get_testcaseid_ontestrun(73,513))
 #print(get_newtestrun_baseon_project_mobile())
 #create_test_run("moi add vao luon",[510,511])

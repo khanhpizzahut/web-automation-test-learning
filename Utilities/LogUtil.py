@@ -19,5 +19,5 @@ class Logger():
         fh.setLevel(file_level)
         self.logger.addHandler(fh)
 
-log = Logger(__name__,logging.INFO)
-log.logger.info("Khanh log2223")
+#log = Logger(__name__,logging.INFO)
+#log.logger.info("Khanh log2223")

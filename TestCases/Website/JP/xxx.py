@@ -1,13 +1,38 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
+import pytest
 
-driver = webdriver.Chrome(executable_path=r"/Users/phdvqc/Documents/GitHub/web-automation-test-learning/driver/chromedriver")
-driver.get("http://www.python.org")
-assert "Python" in driver.title
-elem = driver.find_element(By.NAME, "q")
-elem.clear()
-elem.send_keys("pycon")
-elem.send_keys(Keys.RETURN)
-assert "No results found." not in driver.page_source
-driver.close()
+import logging
+from Utilities.LogUtil import Logger
+
+log = Logger(__name__, logging.INFO)
+
+log.logger.info("-------------------------------------------------")
+
+def setup_module(module):
+    log.logger.info("-------------------------------------------------")
+    log.logger.info("------------Start test new feature---------------")
+    log.logger.info("-------------------------------------------------")
+
+def teardown_module(module):
+    log.logger.info("-------------------------------------------------")
+    log.logger.info("---------------------END-------------------------")
+    log.logger.info("-------------------------------------------------")
+
+def setup_function(function):
+    log.logger.info("-- bat dau moi test case-")
+
+def teardown_function(function):
+    log.logger.info("--- ket thuc moi test case---")
+
+def test_001_3107_ChangeLanguageToEnglish():
+    log.logger.info(" run tc 01")
+
+@pytest.mark.skip
+def test_002_loginViaEmail():
+    log.logger.info(" run tc 02")
+
+# @pytest.mark.skip
+def test_003_localise_delivery_postcode():
+    log.logger.info(" run tc 03")
+
+def test_004_add_DrinkDesser():
+    log.logger.info(" run tc 04")

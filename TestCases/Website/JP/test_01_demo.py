@@ -10,7 +10,7 @@ from TestCases.BaseTest import BaseTest
 
 class Demo(BaseTest):
 
-    def test_001_ChangeLanguageToEnglish(self):
+    def test_001_3107_ChangeLanguageToEnglish(self):
         homepage = HomePage(self.driver)
         homepage.changelaguage()
 

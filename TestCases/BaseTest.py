@@ -1,12 +1,13 @@
 import time
 import unittest
 import pytest
-import logging
-from Utilities.LogUtil import Logger
+
 from Utilities.testrail import *
 from Utilities.configReader import *
 from datetime import datetime
 
+import logging
+from Utilities.LogUtil import Logger
 log = Logger(__name__, logging.INFO)
 
 
