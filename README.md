@@ -29,7 +29,17 @@ If not, please update new driver base on chrome version
 
 <img width="402" alt="Screen Shot 2022-11-15 at 10 52 45 PM" src="https://user-images.githubusercontent.com/79838962/201964853-0957d71f-2a06-494d-9ce0-58e2a30d55e7.png">
 
-S7: Open ``Testcases`` folder and run test script
+S7: Open ``Terminal`` and do command line
+* CD to folder testcases: path base on your pc
 
----
+cd ...TestCases/Website/JP
+-
+* Run all testcases on this folder
+
+python -m pytest 
+-
+OR
+
+python3 -m pytest
+-
 If you have any question, please contact to `khanh.pham@yum.com`
